@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
 
@@ -18,23 +19,23 @@
 
             <!--Divisão coerente do código-->
 
-            <div class="textos">
+            <section id="formularios">
+                <div class="textos">
                 
-                <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder alterar as configurações do seu ambiente virtual</p>
+                    <h1>Login</h1>
+                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder alterar as configurações do seu ambiente virtual</p>
                 
-            </div>
-
-            
-
-                <div class="formulario">
-                    <form action="login.php" method="post" class="formitens">
-                        <input type="text" placeholder="E-mail">
-                        <input type="password" placeholder="Senha">
-                        <input type="submit" value="Entrar" class="entrarbtn">
-                        <input type="submit" value="Esqueci minha senha" class="esquecisenha">
-                    </form>
                 </div>
+                
+                    <div>
+                        <form action="login.php" method="post" class="formitens">
+                            <input type="text" placeholder="E-mail">
+                            <input type="password" placeholder="Senha">
+                            <input type="submit" value="Entrar" class="entrarbtn">
+                            <input type="submit" value="Esqueci minha senha" class="esquecisenha">
+                        </form>
+                    </div>
+            </section>
 
             
 

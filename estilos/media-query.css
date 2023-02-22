@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/* Typical device breakpoints
+
+-----------------------------
+
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px */
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    
+
+    main.container {
+        width: 80vw;
+        height: 60vh;
+    }
+
+    .imagem {
+        
+        float: left;
+        width: 30%;
+        height: 100vh;
+    }
+
+    #formularios {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+               
+    }
+
+    .formitens {
+
+        width: 400px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    main.container {
+        width: 80%;
+        height: 60%;
+    }
+
+    .imagem {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: left;
+        align-items: left;   
+        float: left;   
+        width: 50%;
+        height: 100vh;
+        
+    }
+
+    #formularios {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+
+       }
+
+    }

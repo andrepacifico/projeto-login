@@ -94,12 +94,16 @@ input {
 }
 
 input.entrarbtn {
+    margin: 5px;
+    padding: 16px;
     background-color: blueviolet;
     color: white;
     font-weight: bold;
 }
 
 input.esquecisenha {
+    margin: 5px;
+    padding: 16px;
     background-color: blueviolet;
     font-weight: bold;
     color: white;

@@ -72,6 +72,15 @@ Grandes telas: acima de 1200px */
         
     }
 
+    .textos > h1 {
+        font-size: 1.8em;
+    }
+
+    .textos > p {
+        padding-right: 45px;
+        padding-left: 45px;
+    }
+
     #formularios {
         display: flex;
         flex-direction: column;

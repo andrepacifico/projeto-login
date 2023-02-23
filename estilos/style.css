@@ -27,8 +27,8 @@ body, html {
     align-items: center;
     background-color: black;
     color: white;
-    height: 90%;
-    width: 90%;
+    height: 80vh;
+    width: 70vw;
     border: 1px solid white;
     border-radius: 10px;
     overflow: hidden;
@@ -44,7 +44,7 @@ body, html {
     
     
     width: 100%;
-    height: 35vh;
+    height: 30vh;
     background-color: black;
     background-image: url(../imagens/mulher&code.jpg);
     background-position: center center;
@@ -55,6 +55,8 @@ body, html {
     
 
 }
+
+
 
 .textos > h1 {
 
@@ -69,12 +71,10 @@ body, html {
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
     
 }
-
-
-
-
 
 
 
@@ -83,6 +83,7 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 input {
@@ -101,6 +102,7 @@ input.entrarbtn {
     background-color: blueviolet;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 input.esquecisenha {
@@ -109,4 +111,5 @@ input.esquecisenha {
     background-color: blueviolet;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }

@@ -1,0 +1,19 @@
+~
+
+
+- espaçar as letras corretamente
+- bordas da imagem - V
+- sombra da imagem
+- responsividade
+
+
+GUARDANDO VALORES:
+
+.container
+height: 80vh;
+    width: 50vw;
+
+
+imagem {
+    width: 100%;
+    height: 35vh;

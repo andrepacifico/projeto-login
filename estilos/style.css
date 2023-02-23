@@ -105,6 +105,10 @@ input.entrarbtn {
     cursor: pointer;
 }
 
+input.entrarbtn:hover {
+    background-color: rgb(103, 37, 165);
+}
+
 input.esquecisenha {
     margin: 5px;
     padding: 8px;
@@ -112,4 +116,8 @@ input.esquecisenha {
     font-weight: bold;
     color: white;
     cursor: pointer;
+}
+
+input.esquecisenha:hover {
+    background-color: rgb(103, 37, 165);
 }
